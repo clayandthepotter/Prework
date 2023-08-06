@@ -30,7 +30,7 @@ let numArray = [45, 234, 93, 2, 457, 982, 99, 1000, 21, 19]
 
 //we want to continue until the list is empty. An empty list has a length of 0. Use this fact to fill in the required condition
 
-while (numArray.link >= 0) {
+while (numArray.length >= 1) {
 
     let removedNum = numArray.pop() //use the pop method to remove the number at the end of the list and store it in a new variable
 
