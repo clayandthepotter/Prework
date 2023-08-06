@@ -60,3 +60,4 @@ if (age >= 17) {
 } else {
     console.log(`You are ${age}. You are only old enough to see PG and G movies.`);
 }
+
