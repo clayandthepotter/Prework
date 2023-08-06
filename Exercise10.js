@@ -49,4 +49,4 @@ const newEmailAddress = emailAddress.replace(oldDomain , newDomain) //use a stri
 console.log(`The new email address is ${newEmailAddress}`);
 
 const tempPassword = username.slice(0,5) + emailLength //use string methods and either concatenation or interpolation to generate the temporary password as described in the starting comments, you might find it useful to create another variable above this line to do this
-console.log(`The user’s temporary password is ${tempPassword}`);
+console.log(`The user's temporary password is ${tempPassword}`);
