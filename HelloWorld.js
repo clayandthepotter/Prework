@@ -61,3 +61,17 @@ console.log("The remainder when 45 is divided by 7 is: ")
 console.log(45 % 7); //change this line
 console.log("The product of 5 and 7 added to the quotient of 12 and 3 is: ");
 console.log((5 * 7) + (12 / 3)); //change this line
+
+// Ex. 5
+
+console.log("True or false: 5 is less than 2");
+console.log(5 < 2); // false
+console.log("True or false: 19 is not equal 11");
+console.log(19 != 11) // true
+console.log("True or false: 10 is greater than or equal to 10");
+console.log(10 >= 10); // true
+
+console.log(2 == 2); // ==, true
+console.log(10 > 11); // >, false
+console.log(11 <= 10); // <=, false
+console.log(7 != 5); // !=, true
