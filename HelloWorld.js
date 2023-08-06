@@ -165,7 +165,7 @@ console.log("Split 3 ways is", splitAmount.toFixed(2), "each");
 
 // const fullName = firstName + " " + lastName;
 
-const patientName = "Evelyn Parks";
+/*const patientName = "Evelyn Parks";
 let apptTime = "2:31pm";
 let apptDay = "Friday";
 
@@ -187,4 +187,32 @@ let faveFood = "Sushi" //add your favorite food
 let faveColor = "Blue" //add your favorite color
 let miniBio = `Hi, my name is ${fullNameConcat}. I am ${myAge} years old. My favorite food is ${faveFood}, and my favorite color is ${faveColor}`  //use string interpolation to create summary that includes your full name, age, favorite food, and favorite color
 console.log("Your mini bio is:");
-console.log(miniBio);
+console.log(miniBio);*/
+
+// Ex. 8
+
+const firstName = "Clayton";
+const middleName = "Aaron";
+const lastName = "Prickett";
+
+const firstInitial = firstName[0];
+const middleInitial = middleName[0];
+const lastInitial = lastName[0];
+
+const monogram = firstInitial + middleInitial + lastInitial;
+console.log(`${firstName}'s monogram is ${monogram}`)
+
+
+const fullString = "SOFTWARE DEV"; //SFTWRDV
+
+const vanityLetter1 = fullString[0] //your code here
+const vanityLetter2 = fullString[2] //your code here
+const vanityLetter3 = fullString[3]; //use this as an example
+const vanityLetter4 = fullString[4] //your code here
+const vanityLetter5 = fullString[6] //your code here
+const vanityLetter6 = fullString[9] //your code here
+const vanityLetter7 = fullString[11] //your code here
+
+const vanityPlate = vanityLetter1 + vanityLetter2 + vanityLetter3 + vanityLetter4 + vanityLetter5 + vanityLetter6 + vanityLetter7 //your code here
+
+console.log(`The new vanity plate is ${vanityPlate}`);
