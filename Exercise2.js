@@ -1,7 +1,7 @@
 // Ex. 2
 
 // This is my first program!
-// console.log('Hello World!');
+// console.log("Hello World!")
 
 /*console.log("There once was a writer of code");
 console.log('Who wanted to learn JS and node');
